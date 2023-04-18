@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav ul li{
+    color: white;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+section#portfolio{
+    background-color: aqua;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#servicos{
+    background-color: yellow;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#contato{
+    background-color: green;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img#seta{
+    width: 30px;
+    background-color: aqua;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
